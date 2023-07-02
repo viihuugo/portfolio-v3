@@ -1,6 +1,6 @@
 import { Routes , Route , useLocation } from 'react-router-dom';
 
-import { Home, About, Work, CryptoStats, AutiSocial, Contact } from './pages';
+import { Home, About, Work, CryptoStats, AutiSocial, Contact, StayFinder } from './pages';
 import { pageTransition } from './animations';
 
 import { SwitchTransition, Transition } from "react-transition-group";
@@ -28,6 +28,7 @@ function App() {
               <Route path="/work" element={<Work/>}/>    
               <Route path="/work/cryptostats" element={<CryptoStats/>}/>
               <Route path="/work/autisocial" element={<AutiSocial/>}/>
+              <Route path="/work/stayfinder" element={<StayFinder/>}/>
               <Route path="/contact" element={<Contact/>}/>
             </Routes>
           </div>

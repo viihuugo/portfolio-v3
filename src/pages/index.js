@@ -3,4 +3,5 @@ export { default as About } from './about';
 export { default as Work } from './work';
 export { default as CryptoStats } from './cryptostats';
 export { default as AutiSocial } from './autisocial';
+export { default as StayFinder } from './stayfinder';
 export { default as Contact } from './contact';

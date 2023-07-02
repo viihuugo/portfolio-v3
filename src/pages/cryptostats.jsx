@@ -23,7 +23,7 @@ export default function CryptoStats() {
   return (
     <div className="h-full bg-[#535E5A]">
       <div className="text-white flex justify-between px-12 pt-8 font-semibold sticky top-0 max-lg:px-3 max-sm:flex-col max-sm:pt-4">
-        <div className="projectNav max-sm:py-1">Design Development</div>
+        <div className="projectNav max-sm:py-1">Design & Development</div>
         <div className="projectNav flex max-sm:py-1">
           <div className="pr-2"><a href="https://crypto-stats-one.vercel.app/">Visit Website</a></div>
           <div className="flex items-center"><svg className="rotate-[-90deg] fill-white" width="15" height="13" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M20 100V90H82.95L0 7.05L7.05 0L90 82.95V20H100V100H20Z"></path></svg></div>
