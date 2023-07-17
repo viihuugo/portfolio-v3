@@ -54,7 +54,7 @@ export default function Home() {
         <div className="content opacity-0">
           <Navbar/>        
 
-        <div className="relative h-[680px] w-full pt-12 max-[960px]:flex max-[960px]:flex-col max-[960px]:justify-between max-[480px]:h-[600px]">
+        <div className="relative h-[720px] w-full pt-12 max-[960px]:flex max-[960px]:flex-col max-[960px]:justify-between max-[480px]:h-[600px]">
             
           <Navhero/>  
       
