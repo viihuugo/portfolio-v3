@@ -40,10 +40,10 @@ export default function Projects() {
                 </div>
             </div>
           
-            <div className="h-[700px]  max-[960px]:h-[400px] w-full ">
+            <div className="h-[700px] max-w-4xl max-[960px]:h-[400px] w-full ">
               <div className="h-full w-full relative">
                 <Link to='/work/autisocial'>
-                  <img src='/autisocial.png' alt="autisocial" className="h-full object-fill"/>
+                  <img src='/autisocial.png' alt="autisocial" className="h-full w-full object-fill"/>
                 </Link>
               </div>
             </div>
@@ -61,10 +61,10 @@ export default function Projects() {
                     <div ref={el => (info2 = el)} className="text-2xl flex justify-center pt-[150px] max-[960px]:py-8 max-[960px]:justify-start"><p className="w-3/12 max-[960px]:w-10/12">AN ANALYSIS TOOL FOR CRYPTO USERS</p></div>
                 </div>
             </div>
-            <div className="h-[700px] max-[960px]:h-[400px] w-full ">
+            <div className="h-[700px] max-w-4xl max-[960px]:h-[400px] w-full ">
               <div className="h-full w-full relative">
                 <Link to='/work/cryptostats'>
-                  <img src='/crypto2.png' alt="cryptostats" className="h-full object-fill"/>
+                  <img src='/crypto2.png' alt="cryptostats" className="h-full w-full object-fill"/>
                 </Link>
               </div>
             </div>
@@ -82,10 +82,10 @@ export default function Projects() {
                     <div ref={el => (info2 = el)} className="text-2xl flex justify-center pt-[150px] max-[960px]:py-8 max-[960px]:justify-start"><p className="w-3/12 max-[960px]:w-10/12 uppercase">Home-sharing platform for short-term rentals</p></div>
                 </div>
             </div>
-            <div className="h-[700px] max-[960px]:h-[400px] w-full ">
+            <div className="h-[700px] max-w-4xl max-[960px]:h-[400px] w-full ">
               <div className="h-full w-full relative">
                 <Link to='/work/stayfinder'>
-                  <img src='/stayfinder.png' alt="stayfinder" className="h-full object-fill"/>
+                  <img src='/stayfinder.png' alt="stayfinder" className="h-full w-full object-fill"/>
                 </Link>
               </div>
             </div>

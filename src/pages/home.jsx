@@ -63,7 +63,7 @@ export default function Home() {
               <div ref={el => (line2 = el)} className="leading-[110px] max-lg:leading-none flex overflow-hidden">developer</div>
             </div>
             
-            <div className="h-3/6 w-full flex justify-between max-[960px]:h-3/6">
+            <div className="h-3/6 w-full flex justify-between max-[960px]:h-3/6 min-h-[300px]">
               <div ref={el => (info = el)} className="max-w-[15vw] max-[960px]:max-w-[50vw] pl-2 font-medium leading-tight">I CREATE DIGITAL PRODUCTS USING CODING AND INTERACTIVE DESIGN TO REALIZE IDEIAS</div> 
               <div className="text-9xl max-lg:text-[12vw] font-medium flex items-end">
                 <div className="text-right font-semibold">

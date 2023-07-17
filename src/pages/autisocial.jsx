@@ -57,11 +57,11 @@ export default function AutiSocial() {
 
       <div className="mt-16 pb-8 z-10 relative">
         <div ref={el => (mask = el)} className='absolute top-0 h-full w-full z-10 bg-[#535E5A]'></div>
-        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg" src='/autisocial.png' alt="autisocial"/></div>
-        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg" src='/heroAuti.png' alt="heroauti"/></div>
-        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg" src="/aboutAuti.png" alt="aboutauti"/></div>
-        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg" src="/statsAuti.png" alt="statsauti"/></div>
-        <div className="mt-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg" src="/animationAuti.png" alt="animationauti"/></div>
+        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg w-full" src='/autisocial.png' alt="autisocial"/></div>
+        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg w-full" src='/heroAuti.png' alt="heroauti"/></div>
+        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg w-full" src="/aboutAuti.png" alt="aboutauti"/></div>
+        <div className="my-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg w-full" src="/statsAuti.png" alt="statsauti"/></div>
+        <div className="mt-12 mx-12 relative h-full max-lg:mx-3 max-sm:my-4"><img className="rounded-lg w-full" src="/animationAuti.png" alt="animationauti"/></div>
       </div>
       
     </div>
