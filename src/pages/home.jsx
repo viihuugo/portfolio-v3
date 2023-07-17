@@ -73,8 +73,8 @@ export default function Home() {
               </div>          
             </div>
 
-              {/* Scroll Down Circle Effect */}
-            <div className="absolute bottom-0 left-12 w-[100px] max-[960px]:hidden">
+            {/* Scroll Down Circle Effect */}
+            <div className="relative bottom-0 left-12 w-[100px] max-[960px]:hidden">
                 <div className="flex justify-center items-center">
                   <div className="scrollDown">
                     <svg viewBox="0 0 100 100" width="100" height="100">
